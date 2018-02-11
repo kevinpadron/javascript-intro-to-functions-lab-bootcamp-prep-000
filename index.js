@@ -22,7 +22,7 @@ function sayHiToGrandma(string) {
   } else {
     return "YES INDEED!"
   }
-  if (mixedCase = "I love you, Grandma.") {
+  if (mixedCase.toUpperCase() === "I love you, Grandma.") {
     return "I love you, too"
   }
 }
